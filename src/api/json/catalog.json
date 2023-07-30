@@ -1507,6 +1507,15 @@
       "url": "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/catalogue-entry-schema.json"
     },
     {
+      "name": "Easy ACI",
+      "description": "Cisco Easy ACI/NDO Data Model JSON Schema.  See: https://github.com/terraform-cisco-modules/easy-aci",
+      "url": "https://raw.githubusercontent.com/terraform-cisco-modules/easy-aci/main/yaml_schema/easy-aci-1.1.json",
+      "fileMatch": ["*.eza.yaml", "*.eza.yml"],
+      "versions": {
+        "1.1": "https://raw.githubusercontent.com/terraform-cisco-modules/easy-aci/main/yaml_schema/easy-aci-1.1.json"
+      }
+    },
+    {
       "name": "ecosystem.json",
       "description": "PM2 ecosystem config file",
       "fileMatch": [
